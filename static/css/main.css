@@ -1,0 +1,240 @@
+
+
+
+  .head
+  {
+
+    height: 50px;
+    top: 0;
+    left: 0;
+    padding: 0 200px;
+    width: 100%;
+  box-sizing: border-box;
+    z-index: 999;
+
+  }
+  .head .logo
+{
+    color: black;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    float: left;
+
+}
+.head nav{
+    float: right;
+
+}
+ .head nav ul
+ {
+     margin: 0;
+     padding: 0;
+     display: flex;
+
+ }
+
+.head nav ul li
+{
+    list-style: none;
+    position: relative;
+}
+
+.head nav ul li a
+ {
+     height: 50px;
+     line-height: 50px;
+     padding: 0 25px;
+     color: black;
+     text-decoration: none;
+     display: block;
+     font-size: 20px;
+     border-radius: 20px;
+     border-bottom: 1px solid black;
+
+ }
+ .head nav ul li a:hover
+ {
+  color: black;
+
+
+ }
+ .head nav ul li a.active
+ {
+     color: black;
+ }
+
+ .menu-toggle
+ {
+     color: black;
+    float: right;
+     line-height: 50px;
+     cursor: pointer;
+     font-size: 24px;
+     display: none;
+
+ }
+ @media (max-width: 1350px)
+ {
+     .head
+     {
+        padding: 0 20px;
+        align-content: center;
+
+     }
+
+     .menu-toggle
+     {
+         display: block;
+
+     }
+     .head nav
+     {
+         position: absolute;
+         width: 100%;
+         height: calc(100vh- 50px);
+       z-index: 200;
+       background-color: whitesmoke;
+         top: 50px;
+         left:-100%;
+         transition: 0.5s;
+
+
+     }
+    .head nav.active
+    {
+        left: 0;
+
+    }
+     .head nav ul
+     {
+         display: block;
+         text-align: center;
+
+     }
+     .head nav ul li a {
+
+         color: black;
+     }
+     .head nav ul li:hover ul,
+     .head nav ul li.active ul
+     {
+         position: relative;
+
+         visibility: visible;
+
+     }
+
+
+
+     }
+
+
+     .banner
+     {
+      top: 50px;
+         border: 1px solid black;
+         padding:4%;
+         font-size:20px;
+         background-image: linear-gradient(to right,rgb(19, 19, 131), rgb(64, 64, 224));
+         color: white;
+         width: 100%;
+         top: 60px;
+         position: absolute;
+     }
+
+    .learnMore
+{
+    background-color:white;
+    color: black;
+
+    font-size: 18px;
+    padding:0.7%;
+    text-decoration: none;
+    border-radius: 18px;
+
+
+}
+    .learnMore:hover
+    {
+        border-radius: 28px;
+        text-decoration: none;
+        color:black;
+    }
+
+.readMore
+{
+    background-color: rgb(19, 19, 131);
+    color:white;
+    border-style: solid;
+
+    font-size: 18px;
+    padding:1.5%;
+    border-radius: 16px;
+
+}
+
+    .readMore:hover
+    {
+        border-radius: 28px;
+        text-decoration: none;
+        color:black;
+    }
+
+
+.blog-slider {
+    width: 95%;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+    top:250px;
+    background: #fff;
+    box-shadow: 1px 4px 10px rgb(19, 19, 131);
+    padding: 4%;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 150%;
+
+
+}
+.loaction4{
+ top:350px;
+ position: absolute;
+  background: #fff;
+  width:100%
+}
+
+
+
+
+
+.brand-wrapper {
+  margin-bottom: 19px; }
+
+
+  .login-card-img {
+    border-radius: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; }
+
+  .login-card-description {
+    font-size: 25px;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 23px; }
+
+
+.mybt
+{
+    background-color: rgb(19, 19, 131);
+    color:white;
+    border-style: solid;
+
+    font-size: 25px;
+    padding:3%;
+    border-radius: 8px;
+
+}
